@@ -1,0 +1,9 @@
+mkdir ~/ProgramasFelices
+sudo apt-get install nmap wireshark remmina virt-manager tilix clipman 
+wget https://downloads.paessler.com/prtg_desktop/linux-appimage-64bit
+chown dylanc linux-appimage-64bit
+rn linux-appimage-64bit prtgdesktop
+chmod 701 prtgdesktop
+wget https://go.microsoft.com/fwlink/p/?LinkID=2112886
+sudo snap install spotify flameshot
+sudo nano /etc/resolv.conf
